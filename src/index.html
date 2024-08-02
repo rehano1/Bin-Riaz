@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Bin Riaz</title>
   </head>
-  <body class="font-roboto">
+  <body>
     <!-- Navbar -->
     <div
       class="flex flex-wrap justify-between items-center general-spacing bg-background-color text-white"
@@ -35,7 +35,9 @@
         <div>
           <h1 class="tracking-halfRem">Bin-Riaz</h1>
         </div>
-        <div class="flex items-center justify-center gap-4 lg:gap-12 custom-hover">
+        <div
+          class="flex items-center justify-center gap-4 lg:gap-12 custom-hover"
+        >
           <a href="#">Womens</a>
           <a href="#">Mens</a>
           <a href="#">Kids</a>
@@ -43,49 +45,272 @@
         </div>
       </div>
 
-      <div class="text-background-color relative hidden lg:flex flex grow justify-end items-center">
-  
-          <form class="">
-            
-              <input
-              type="text"
-              placeholder="Search.."
-              name="search"
-              class="py-1 pl-4 pr-8 focus:outline-none rounded-sm"
-            />
-          
-            
-              <button type="submit" class="flex items-center justify-center absolute right-0 top-1 mt-1 mr-2">
-              
-                  <i class="fa-solid fa-magnifying-glass"></i>
+      <div
+        class="text-background-color relative sm:hidden lg:flex flex grow justify-end items-center"
+      >
+        <form class="">
+          <input
+            type="text"
+            placeholder="Search.."
+            name="search"
+            class="py-1 pl-4 pr-8 focus:outline-none rounded-sm"
+          />
 
-                
-              </button>
-            
-            
-          </form>
+          <button
+            type="submit"
+            class="flex items-center justify-center absolute right-0 top-1 mt-1 mr-2"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
       </div>
     </div>
 
     <!-- Hero Section -->
-     <div class="uniform-gradient-background flex justify-center items-center">
-        <div class="absolute general-spacing flex flex-col">
-            <h1 class="custom-design">Welcome to Pakistan's Largest Store</h1>
-            <h3 class="custom-design">Investing in your Satisfaction</h3>
-            <div class="pt-4">
-            <a class="link-design" href="#">Categories</a>
+    <div class="uniform-gradient-background flex justify-center items-center">
+      <div class="absolute general-spacing flex flex-col">
+        <h1 class="custom-design">Welcome to Pakistan's Largest Store</h1>
+        <h3 class="custom-design">Investing in your Satisfaction</h3>
+        <div class="pt-4">
+          <a class="link-design" href="#category">Categories</a>
         </div>
+      </div>
+    </div>
 
+    <!-- Shop By Category -->
+    <div id="category" class="flex flex-col mx-8 my-12">
+      <h1 class="custom-design text-center text-background-color uppercase">
+        Shop By Category
+      </h1>
+      <div class="flex gap-1 flex-wrap">
+        <div class="img-design">
+          <img
+            src="/images/4WhatsApp Image 2024-08-02 at 7.15.52 AM 1.jpeg"
+            alt=""
+            class="h-custom-2 w-custom-2 transform transition-transform duration-1000 hover:scale-105"
+          />
+          <a class="uppercase py-4 custom-font-a" href="#">Party Wear</a>
         </div>
-     </div>
+        <!-- 2 -->
+        <div class="img-design">
+          <img
+            src="/images/8WhatsApp Image 2024-08-02 at 7.15.48 AM 1.jpeg"
+            alt=""
+            class="h-custom-2 w-custom-2 transform transition-transform duration-1000 hover:scale-105"
+          />
+          <a class="uppercase py-4 custom-font-a" href="#">lawn 9070</a>
+        </div>
+        <!-- 3 -->
+        <div class="img-design">
+          <img
+            src="/images/azadi.jpg"
+            alt=""
+            class="h-custom-2 w-custom-2 transform transition-transform duration-1000 hover:scale-105"
+          />
+          <a class="uppercase py-4 custom-font-a" href="#">Azadi</a>
+        </div>
+        <!-- 4 -->
+        <div class="img-design">
+          <img
+            src="/images/banda.jpg"
+            alt=""
+            class="h-custom-2 w-custom-2 transform transition-transform duration-1000 hover:scale-105"
+          />
+          <a class="uppercase py-4 custom-font-a" href="#">men</a>
+        </div>
+      </div>
+    </div>
 
-     <div class="">
-         <div>
-            <img src="" alt="">
-         </div>
-         <div></div>
-         <div></div>
-         <div></div>
-     </div>
+    <!-- Women -->
+    <div id="category" class="flex flex-col mx-8 my-12">
+      <h1 class="custom-design text-center text-background-color uppercase">
+        Women
+      </h1>
+      <div class="flex flex-col gap-8 flex-wrap">
+        <div class="flex gap-1 flex-wrap">
+          <div class="img-design">
+            <img
+              src="/images/6WhatsApp Image 2024-08-02 at 7.15.50 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 2 -->
+          <div class="img-design">
+            <img
+              src="/images/10WhatsApp Image 2024-08-02 at 7.15.45 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 3 -->
+          <div class="img-design">
+            <img
+              src="/images/11WhatsApp Image 2024-08-02 at 7.15.43 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 4 -->
+          <div class="img-design">
+            <img
+              src="/images/13WhatsApp Image 2024-08-02 at 7.15.38 AM(2) 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="flex gap-1 flex-wrap">
+          <div class="img-design">
+            <img
+              src="/images/6WhatsApp Image 2024-08-02 at 7.15.50 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 2 -->
+          <div class="img-design">
+            <img
+              src="/images/10WhatsApp Image 2024-08-02 at 7.15.45 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 3 -->
+          <div class="img-design">
+            <img
+              src="/images/11WhatsApp Image 2024-08-02 at 7.15.43 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 4 -->
+          <div class="img-design">
+            <img
+              src="/images/13WhatsApp Image 2024-08-02 at 7.15.38 AM(2) 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+        </div>
+        <!-- third -->
+        <div class="flex gap-1 flex-wrap">
+          <div class="img-design">
+            <img
+              src="/images/6WhatsApp Image 2024-08-02 at 7.15.50 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 2 -->
+          <div class="img-design">
+            <img
+              src="/images/10WhatsApp Image 2024-08-02 at 7.15.45 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 3 -->
+          <div class="img-design">
+            <img
+              src="/images/11WhatsApp Image 2024-08-02 at 7.15.43 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 4 -->
+          <div class="img-design">
+            <img
+              src="/images/13WhatsApp Image 2024-08-02 at 7.15.38 AM(2) 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+        </div>
+        <!-- fourth -->
+        <div class="flex gap-1 flex-wrap">
+          <div class="img-design">
+            <img
+              src="/images/6WhatsApp Image 2024-08-02 at 7.15.50 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 2 -->
+          <div class="img-design">
+            <img
+              src="/images/10WhatsApp Image 2024-08-02 at 7.15.45 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 3 -->
+          <div class="img-design">
+            <img
+              src="/images/11WhatsApp Image 2024-08-02 at 7.15.43 AM 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+          <!-- 4 -->
+          <div class="img-design">
+            <img
+              src="/images/13WhatsApp Image 2024-08-02 at 7.15.38 AM(2) 1.jpeg"
+              alt=""
+              class="h-custom-1 w-custom-1 transform transition-transform duration-1000 hover:scale-105"
+            />
+            <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+            <p class="py-0 text-background-color">new</p>
+            <a class="uppercase py-4 custom-font-a" href="#">Rs 2500.00</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
