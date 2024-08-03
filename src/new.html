@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Bin Riaz</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div
+      class="flex flex-wrap justify-between items-center general-spacing bg-background-color text-white"
+    >
+      <div class="flex grow justify-between gap-4 py-1">
+        <div>
+          <h1 class="tracking-halfRem">Bin-Riaz</h1>
+        </div>
+        <div
+          class="flex items-center justify-center gap-4 lg:gap-12 custom-hover"
+        >
+          <a href="#">Womens</a>
+          <a href="#">Mens</a>
+          <a href="#">Kids</a>
+          <a href="#">Bedding</a>
+        </div>
+      </div>
+
+      <div
+        class="text-background-color relative hidden md:hidden lg:flex grow justify-end items-center"
+      >
+        <form class="">
+          <input
+            type="text"
+            placeholder="Search.."
+            name="search"
+            class="py-1 pl-4 pr-8 focus:outline-none rounded-sm"
+          />
+
+          <button
+            type="submit"
+            class="flex items-center justify-center absolute right-0 top-1 mt-1 mr-2"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Product section -->
+    <div class="flex my-12 mx-8">
+      <div class="hidden sm:hidden md:flex lg:flex gap-1 flex-wrap max-w-3xl">
+        <img class="h-custom-1 w-custom-1" src="/images/11.jpg" alt="" />
+        <img class="h-custom-1 w-custom-1" src="/images/22.jpg" alt="" />
+        <img class="h-custom-1 w-custom-1" src="/images/33.jpg" alt="" />
+        <img class="h-custom-1 w-custom-1" src="/images/44.jpg" alt="" />
+      </div>
+      <div class="flex flex-col flex-wrap justify-between align-middle">
+        <div>
+          <h3 class="uppercase py-4 font-semibold">lawn 9070 3pc</h3>
+          <p class="py-0 text-background-color">new</p>
+          <p class="py-0 text-background-color">Rs 2500</p>
+          <a
+            class="uppercase custom-font-a link-design-2 mt-4 rounded-sm"
+            href="#"
+            >Add to bag</a
+          >
+          <h3 class="uppercase py-4 font-semibold">Product Details</h3>
+          <p class="text-background-color text-xs max-w-md">
+            Elevate your summer style with our printed three-piece suit in
+            yellow featuring a lawn shirt, fine voile dupatta and cambric
+            trousers.
+          </p>
+        </div>
+
+        <div class="custom-description mt-4 text-sm">
+          <h3 class="">Shirt</h3>
+          <p>printed lawn shirt 3M</p>
+          <h3>Fabric:</h3>
+          <p>Lawn</p>
+          <h3>Color</h3>
+          <p>Yellow</p>
+        </div>
+        <div class="custom-description mt-4 text-sm">
+          <h3 class="">Shirt</h3>
+          <p>printed lawn shirt 3M</p>
+          <h3>Fabric:</h3>
+          <p>Lawn</p>
+          <h3>Color</h3>
+          <p>Yellow</p>
+        </div>
+        <div class="custom-description mt-4 text-sm">
+          <h3 class="">Shirt</h3>
+          <p>printed lawn shirt 3M</p>
+          <h3>Fabric:</h3>
+          <p>Lawn</p>
+          <h3>Color</h3>
+          <p>Yellow</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -73,12 +73,26 @@ h3.custom-design {
   background-color: #212121;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
+.link-design-2 {
+  padding: 8px 30px;
+  color: white;
+  font-size: 0.875rem;
+  background-color: #212121;
+  display: inline-block;
+  font-weight: 500;
+}
 
 .custom-font-a {
   font-size: 0.875rem;
   font-weight: 500;
 }
 
+.custom-description > h3 {
+  font-weight: 600;
+}
+.custom-description > p {
+  color: #212121;
+}
 @tailwind utilities;
 
 .img-design {
