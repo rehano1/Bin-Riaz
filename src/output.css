@@ -734,6 +734,30 @@ h3.custom-design {
   max-width: 28rem;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-10 {
+  max-width: 2.5rem;
+}
+
+.max-w-3 {
+  max-width: 0.75rem;
+}
+
+.max-w-2 {
+  max-width: 0.5rem;
+}
+
+.max-w-4 {
+  max-width: 1rem;
+}
+
+.max-w-8 {
+  max-width: 2rem;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -782,6 +806,20 @@ h3.custom-design {
   gap: 2rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-clip {
+  text-overflow: clip;
+}
+
 .text-wrap {
   text-wrap: wrap;
 }
@@ -789,6 +827,10 @@ h3.custom-design {
 .break-normal {
   overflow-wrap: normal;
   word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .rounded-sm {
@@ -865,6 +907,10 @@ h3.custom-design {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .transition-transform {
